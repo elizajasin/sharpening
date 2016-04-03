@@ -1,0 +1,18 @@
+% File: sharpening.m
+% Desc: Proses sharpening citra 256 px grayscale via konvolusi
+% Date: 1 April 2016
+% Author: Eliza Riviera Rachmawati Jasin - 1103130144
+
+% Load image RGB
+img = imread('test.jpg'); 
+
+% Ubah ke grayscale
+img = rgb2gray(img);
+
+% Konvolusi Robert d1
+
+% Konvolusi Robert d2
+% Konvolusi Robert gabungan d1&d2
+
+% Tampilkan gambar
+figure; imshow(img); title('Image asli');
